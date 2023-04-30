@@ -1,0 +1,48 @@
+
+body{
+    text-align: center;
+    background:salmon;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+h1{
+  color: black;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+ #clockdiv{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+}
+#clockdiv > div{
+    padding: 10px;
+    border-radius: 3px;
+    background: rgb(213, 72, 56);
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 15px;
+    border-radius: 3px;
+    background: rgb(190, 29, 11);
+    display: inline-block;
+}
+smalltext{
+    padding-top: 5px;
+    font-size: 16px;
+}
+  
+  
+#stopwatch {
+    padding: 20px;
+    border-radius: 3px;
+    background: rgb(213, 72, 56);
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    text-align: center;
+}
